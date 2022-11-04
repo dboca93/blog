@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Web Dev Blog</title>
+  </head>
+  <body>
+    <header class="main-header">
+      <div class="main-header-inner">
+        <div class="left-logo">
+          <div class="logo-container">
+            <a href="index.html" class="anchor-home"><h3>The Web Dev.</h3></a>
+          </div>
+        </div>
+        <nav class="main-navigation">
+          <div class="nav-inner">
+            <ul class="nav-list">
+              <li class="list-item">CSS Grid</li>
+
+              <a href="tricks.html" class="trick-anchor">
+                <li class="list-item">CSS Tricks</li>
+              </a>
+              <li class="list-item">HTML</li>
+              <li class="list-item">4</li>
+
+              <li class="list-item">
+                <div class="dropdown">
+                  <button class="dropdown-button">Dropdown</button>
+                  <div class="dropdown-content">
+                    <a href="#">Link 1</a>
+                    <a href="#">Link 2</a>
+                    <a href="#">Link 3</a>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <div class="main-container-one a1">
+        <h3 class="blog-title">CSS Tricks</h3>
+        <p>
+          Here we intend to have have a list of of quick CSS Tricks. Eventually
+          we will have a contents section (on this section) which will allow us to 
+          easily navigate to the section that we want.
+        </p>
+        <p>
+            This one is not numbered because we have just used it and it will eventually 
+            be placed on the html page. 
+        </p>
+        <p class="trick tricks-1">
+            When you want to format some HTML:
+            Ctrl+Shift+I to format the entire file or Format Selection Ctrl+K Ctrl+F to just format the selected text.
+        </p>
+        <p class="trick tricks-2">
+            1. Slideout Footer technique
+            <br>
+            <br>
+        This is called the <em>Slideout Footer</em> technique. This is crucial to having a footer
+        sit neatly at the bottom of the page, and to only appear when necessary. It was taken
+        from the following page: https://css-tricks.com/the-slideout-footer/.
+        <br>
+        <br>
+        What needs to happen is that must make sure that the footer section is below the main area 
+        and the main page container has the following ingredients. Now keep in mind it may be 
+        that one has as header of 10vh and therefore keeps the main page container to 90vh -- we 
+        need to try this we haven't tried this yet. The second image
+        on the right is referring to the footer, one could also throw a top of 100%
+        on there for good measure. This is crucial for our front-end mentor
+        tasks so that people will know exactly how to contact us if necessary
+         -- anyway here's the code:
+        </p>
+        <div class="image-container-one">
+        <img src="images/Screenshot 2022-10-28 031729.png" alt="screenshot-1">
+            <img src="images/two.png" alt="screnshot-2">
+        </div>
+        <p class="trick tricks-3">
+            2. Dropdown navigation for navbar
+        </p>
+        <div class="image-container-one two-img">
+          <img src="images/dropdown--html.png" alt="dropdown-content" width="800px">
+            <img src="images/css.png" alt="css-image">
+        </div>
+        <br>
+        <br>
+        <hr>
+        <br>
+        <br>
+        <div class="trick tricks-3">
+        <h3>Grid Key Notes</h3>
+        <div class="image-container-one three-img">
+          <img src="images/grid1.png" alt="grid-image">
+          <img src="images/text-grid.png" alt="text-grid-area">
+          <img src="images/css-text.png" alt="css-text-area">
+        </div>
+        <p class="exp-1">
+          What we can clearly see is that the grid-template is what is being used to determine 
+          the design of the grid while the .two is determining the dimensions of the text in the 
+          article. 
+        </p>
+        <hr>
+        <br>
+        <h3>Fireship: Implicit Grid</h3>
+        <br>
+        <div class="image-containe-one four-img">
+          <img src="images/grid-main.png" alt="Implicit-grid">
+          <img src="images/implicit-grid.png" alt="gui-implicit-grid">
+        </div>
+        <p class="exp-2">Note that auto-fit takes up all of the available space in 
+          this example, auto-fill operates a bit differently and may only fill up 
+          as much space as the collective width of the box-fixed-widths allows. 
+        </p>
+        <hr>
+        <br>
+        <h3>Fireship: Grid-Based Implicit Image Gallery</h3>
+        <div class="image-container-one five-img">
+          <img src="images/imp-grid.png" alt="implicit-image-grid">
+          <img src="images/grid-notes-one-plus.png" alt="grid-notes-one-plus">
+          <img src="images/mediaqs.png" alt="media-q">
+        </div>
+
+        </div>
+
+
+      </div>
+    </main>
+  </body>
+</html>
